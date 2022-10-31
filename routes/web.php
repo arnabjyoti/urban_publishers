@@ -31,3 +31,9 @@ Route::get('/Join_editor', function () {
 Route::get('/join_reviewer', function () {
     return view('join_reviewer');
 });
+Route::get('/all_issues', function () {
+    return view('all_issues');
+});
+Route::get('/issues', function () {
+    return view('issues');
+});

@@ -192,7 +192,7 @@
                                             <button type="button" class="btn btn-outline-success">
                                                 <ul class="nav ">
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="#">Archive 1</a>
+                                                        <a class="nav-link" href="{{ url('all_issues')}}">Archive 1</a>
                                                     </li>
                                                 </ul>
                                             </button>
